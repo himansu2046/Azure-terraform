@@ -16,6 +16,11 @@ vnets = {
     resource_group_name = "prd-rg"
     address_space       = ["10.0.0.0/16"]
   }
+   vnet2 = {
+    name                = "Dev-vnet"
+    location            = "Centralindia"
+    resource_group_name = "prd-rg"
+    address_space       = ["172.20.0.0/16"]
 }
 
 subnets = {
