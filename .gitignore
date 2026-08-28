@@ -1,23 +1,64 @@
 ### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# Template for AL projects for Dynamics 365 Business Central
+
+# VS Code settings / launch.json folder
 .vscode/
-#Cache folder
+
+# Cache folder
 .alcache/
-#Symbols folder
+
+# Symbols folder
 .alpackages/
-#Snapshots folder
+
+# Snapshots folder
 .snapshots/
-#Testing Output folder
+
+# Testing output folder
 .output/
-#Extension App-file
+
+# Extension App file
 *.app
-#Rapid Application Development File
+
+# Rapid Application Development file
 rad.json
-#Translation Base-file
+
+# Translation base file
 *.g.xlf
-#License-files
+
+# License files
 *.bclicense
 *.flf
-#Test results file
+
+# Test results file
 TestResults.xml
+
+
+### Terraform ###
+
+# Terraform working directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc
+
+# Terraform binary / executable
+terraform
+terraform.exe
+
+# Terraform lock file
+.terraform.lock.hcl
