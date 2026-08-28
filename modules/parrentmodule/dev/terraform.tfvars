@@ -69,19 +69,6 @@ vms = {
     nic_key              = "nic1"
 
   }
-  vm2 = {
-    name                 = "Backendvm"
-    resource_group_name  = "prd-rg"
-    location             = "centralindia"
-    size                 = "Standard_DC2ds_v3"
-    admin_username       = "Himansu"
-    admin_password       = "Test@1234567"
-    caching              = "ReadWrite"
-    storage_account_type = "Standard_LRS"
-    publisher            = "Canonical"
-    offer                = "0001-com-ubuntu-server-jammy"
-    sku                  = "22_04-lts-gen2"
-    version              = "latest"
-    nic_key              = "nic2"
-  }
+
 }
+
