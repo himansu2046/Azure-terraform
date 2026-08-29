@@ -11,6 +11,7 @@ resource "azurerm_linux_virtual_machine" "vm" {
   ]
 
   disable_password_authentication = false
+  computer_name                   = each.value.name
 
   os_disk {
     caching              = each.value.caching
