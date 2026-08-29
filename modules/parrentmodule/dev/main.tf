@@ -24,7 +24,7 @@ module "nic" {
   subnet_data = var.subnets
 
 }
-module "vm" {
+module "linux_vm" {
   depends_on = [module.nic]
   source     = "../../childmodule/vm"
   vms        = var.vms
